@@ -47,7 +47,7 @@ class TransformersEmbedder(nn.Module):
         try:
             word_rep, _ = self.model(**{"input_ids": word_seq_tensor, "attention_mask": input_mask})
         except:
-            word_rep = self.model(**{"input_ids": word_seq_tensor, "attention_mask": input_mask})
+            word_rep = self.model(**{"input_ids": word_seq_tensor, "attention_mask": input_mask})[0]
         ##exclude the [CLS] and [SEP] token
         # _, _, word_rep = self.model(**{"input_ids": word_seq_tensor, "attention_mask": input_mask})
         # word_rep = torch.cat(word_rep[-4:], dim=2)
