@@ -28,9 +28,6 @@ Please cite:
   pages     = {818--833},
   publisher = {CEUR-WS.org},
   year      = {2021},
-  url       = {http://ceur-ws.org/Vol-2936/paper-68.pdf},
-  timestamp = {Tue, 31 Aug 2021 14:51:15 +0200},
-  biburl    = {https://dblp.org/rec/conf/clef/PolignanoGS21.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  url       = {http://ceur-ws.org/Vol-2936/paper-68.pdf}
 }
 ```
