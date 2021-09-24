@@ -9,10 +9,28 @@ All the details are reported in the following [paper](shorturl.at/ahowK).
 Please cite:
 
 ```python
-@article{polignano2021comparing,
-  title={Comparing transformer-based NER approaches for analysing textual medical diagnoses},
-  author={Polignano, Marco and de Gemmis, Marco and Semeraro, Giovanni},
-  journal={CLEF eHealth},
-  year={2021}
+@inproceedings{polignano2021comparing,
+  author    = {Marco Polignano and
+               Marco de Gemmis and
+               Giovanni Semeraro},
+  editor    = {Guglielmo Faggioli and
+               Nicola Ferro and
+               Alexis Joly and
+               Maria Maistro and
+               Florina Piroi},
+  title     = {Comparing Transformer-based {NER} approaches for analysing textual
+               medical diagnoses},
+  booktitle = {Proceedings of the Working Notes of {CLEF} 2021 - Conference and Labs
+               of the Evaluation Forum, Bucharest, Romania, September 21st - to -
+               24th, 2021},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {2936},
+  pages     = {818--833},
+  publisher = {CEUR-WS.org},
+  year      = {2021},
+  url       = {http://ceur-ws.org/Vol-2936/paper-68.pdf},
+  timestamp = {Tue, 31 Aug 2021 14:51:15 +0200},
+  biburl    = {https://dblp.org/rec/conf/clef/PolignanoGS21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
